@@ -87,13 +87,13 @@ border-radius: 25px;
 }
 /* header section end  */
 /* hero section start  */
-.tab-right {
+.hero-right {
   margin-bottom: 50px;
   position: relative;
   overflow: hidden;
   text-align: center;
 }
-.tab-right:after {
+.hero-right:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -104,23 +104,23 @@ border-radius: 25px;
   opacity: 0;
   transition: all 0.5s ease 0s;
 }
-.tab-right:hover:after {
+.hero-right:hover:after {
   opacity: 1;
 }
-.tab-right img {
+.hero-right img {
   width: 100%;
   height: auto;
   transition: all 1.5s ease 0s;
 }
-.tab-right .box-content,
-.tab-right .icon li a {
+.hero-right .box-content,
+.hero-right .icon li a {
   position: absolute;
   transition: all 0.6s ease 0s;
 }
-.tab-right:hover img {
+.hero-right:hover img {
   transform: scale(1.2);
 }
-.tab-right .icon {
+.hero-right .icon {
   width: 100%;
   height: 100%;
   list-style: none;
@@ -131,7 +131,7 @@ border-radius: 25px;
   left: 0;
   z-index: 1;
 }
-.tab-right .icon li a {
+.hero-right .icon li a {
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -143,29 +143,29 @@ border-radius: 25px;
   text-align: center;
   border-radius: 50%;
 }
-.tab-right:hover .icon li a {
+.hero-right:hover .icon li a {
   top: 30%;
   opacity: 1;
 }
-.tab-right .icon li a:hover {
+.hero-right .icon li a:hover {
   background: #FF6F00;
   color: #644F9C;
 }
-.tab-right .icon li:first-child a {
+.hero-right .icon li:first-child a {
   left: -90%;
   right: 0;
 }
-.tab-right:hover .icon li:first-child a {
+.hero-right:hover .icon li:first-child a {
   left: -55px;
 }
-.tab-right .icon li:last-child a {
+.hero-right .icon li:last-child a {
   right: -90%;
   left: 0;
 }
-.tab-right:hover .icon li:last-child a {
+.hero-right:hover .icon li:last-child a {
   right: -55px;
 }
-.tab-right .box-content {
+.hero-right .box-content {
   width: 100%;
   padding: 20px 10px;
   background: rgba(0, 0, 0, 0.1);
@@ -173,22 +173,22 @@ border-radius: 25px;
   left: 0;
   z-index: 1;
 }
-.tab-right:hover .box-content {
+.hero-right:hover .box-content {
   bottom: 0;
 }
-.tab-right .title {
+.hero-right .title {
   font-size: 18px;
   font-weight: 700;
   color: #3D3E3E;
   margin-top: 0;
 }
-.tab-right .post {
+.hero-right .post {
   display: block;
   font-size: 14px;
   color: #3D3E3E;
 }
 @media only screen and (max-width: 990px) {
-  .tab-right {
+  .hero-right {
     margin-bottom: 30px;
   }
 }
